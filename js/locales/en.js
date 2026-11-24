@@ -10,7 +10,6 @@ window.LOCALES.en = {
     sectionProjects: "Projects",
     linkEmail: "Email",
     linkGithub: "GitHub",
-    linkSteam: "Steam",
     statusActive: "ACTIVE",
     statusArchived: "ARCHIVED",
     statusInactive: "INACTIVE",
