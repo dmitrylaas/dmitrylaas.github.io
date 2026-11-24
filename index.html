@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="description" content="Personal card & engineering projects" />
+  <title>Dmitry Laas</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <div class="dot-grid-layer" aria-hidden="true"></div>
+
+  <main class="page-shell">
+    <article class="card" id="mainCard" aria-label="Personal Card">
+      <section class="profile-section" aria-labelledby="profileName">
+        <div class="avatar-box">
+          <img id="githubAvatar" class="avatar-img" src="https://github.com/dmitrylaas.png?size=256" alt="Dmitry Laas"
+            width="92" height="92" draggable="false" loading="eager" decoding="async" />
+        </div>
+
+        <div class="profile-identity">
+          <h1 class="profile-name" id="profileName">Dmitry Laas</h1>
+          <div class="profile-handle" id="profileHandle">@dmitrylaas</div>
+        </div>
+      </section>
+
+      <hr class="section-divider" aria-hidden="true" />
+
+      <section class="section-block" aria-labelledby="lblSectionLinks">
+        <div class="section-header">
+          <h2 class="section-heading" id="lblSectionLinks">
+            <svg class="icon-svg icon-sm" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+              <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+            </svg>
+            <span id="txtSectionLinks">Links</span>
+          </h2>
+        </div>
+
+        <nav class="links-grid" id="linksGrid" aria-label="Links"></nav>
+      </section>
+
+      <hr class="section-divider" aria-hidden="true" />
+
+      <section class="section-block" aria-labelledby="lblSectionProjects">
+        <div class="section-header">
+          <h2 class="section-heading" id="lblSectionProjects">
+            <svg class="icon-svg icon-sm" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2z" />
+              <path d="M2 10h20" />
+            </svg>
+            <span id="txtSectionProjects">Projects</span>
+          </h2>
+          <span class="badge-count" id="projectsCountBadge">00</span>
+        </div>
+
+        <div class="projects-list" id="projectsList"></div>
+      </section>
+
+      <footer class="card-footer" id="lblFooterCopy">
+        © 2026 · All rights reserved
+      </footer>
+    </article>
+  </main>
+
+  <script src="js/config.js"></script>
+  <script src="js/locales/en.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
