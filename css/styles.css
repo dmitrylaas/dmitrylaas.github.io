@@ -508,9 +508,8 @@ body {
 
 .project-footer-row {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
-    flex-wrap: wrap;
     gap: 0.571rem;
     padding: 0.571rem 0.857rem;
     border-top: 1px solid var(--border-color);
@@ -518,6 +517,7 @@ body {
 }
 
 .project-tags {
+    flex: 1;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -546,6 +546,7 @@ body {
 }
 
 .repo-btn {
+    flex-shrink: 0;
     gap: 0.286rem;
     text-decoration: none;
     transition: border-color 0.15s ease, color 0.15s ease, transform 0.15s ease;
